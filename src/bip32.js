@@ -14,10 +14,10 @@ const NETWORK_TYPE = typeforce.compile({
     },
 });
 const BITCOIN = {
-    wif: 0xd4,
+    wif: 0xcc,
     bip32: {
-        public: 0xa40c86fa,
-        private: 0xa40b91bd,
+    public: 0x0488b21e,
+    private: 0x0488ade4,
     },
 };
 const HIGHEST_BIT = 0x80000000;
